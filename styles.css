@@ -98,3 +98,47 @@ nav a {
   color: #666666;
   font-weight: bold;
 }
+/* Videos section */
+.videos {
+  padding: 60px 20px;
+  background-color: #ffffff; /* Change if Figma uses another color */
+  text-align: center;
+}
+
+.videos h2 {
+  font-size: 32px;
+  margin-bottom: 40px;
+  color: #1e1e1e;
+}
+
+.video-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+}
+
+.video-card {
+  width: 300px;
+  background-color: #f9f9f9;
+  padding: 16px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease;
+}
+
+.video-card img {
+  width: 100%;
+  border-radius: 6px;
+  margin-bottom: 10px;
+}
+
+.video-card p {
+  font-size: 16px;
+  color: #333333;
+  margin-top: 5px;
+}
+
+.video-card:hover {
+  transform: translateY(-5px);
+}
