@@ -241,4 +241,42 @@ nav a {
   font-size: 16px;
   color: #333333;
   line-height: 1.6;
+}/* Footer Section */
+.footer {
+  background-color: #1e1e1e; /* Replace with your Figma footer color */
+  color: #ffffff;
+  padding: 40px 20px;
 }
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.footer-logo {
+  height: 50px;
+  margin-bottom: 20px;
+}
+
+.footer-links {
+  margin-bottom: 20px;
+}
+
+.footer-links a {
+  color: #ffffff;
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 14px;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+.footer-text {
+  font-size: 14px;
+  color: #cccccc;
+}
+
+
