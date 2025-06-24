@@ -142,3 +142,67 @@ nav a {
 .video-card:hover {
   transform: translateY(-5px);
 }
+/* Membership Section */
+.membership {
+  padding: 80px 20px;
+  background-color: #f0f4f8; /* Replace with exact Figma color */
+  text-align: center;
+}
+
+.membership h2 {
+  font-size: 32px;
+  margin-bottom: 40px;
+  color: #1e1e1e;
+}
+
+.membership-options {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+}
+
+.member-card {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.05);
+  width: 300px;
+  transition: transform 0.3s ease;
+}
+
+.member-card h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.member-card p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.price {
+  font-weight: bold;
+  font-size: 18px;
+  color: #0044cc;
+}
+
+.member-card .btn {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #0044cc;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+.member-card.featured {
+  border: 2px solid #0044cc;
+  background-color: #e0edff;
+}
+
+.member-card:hover {
+  transform: translateY(-5px);
+}
