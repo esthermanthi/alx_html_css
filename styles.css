@@ -66,3 +66,35 @@ nav a {
 .hero-img {
   max-width: 500px;
 }
+/* Reusable utility classes */
+.text-center {
+  text-align: center;
+}
+
+.section-padding {
+  padding: 60px 20px;
+}
+
+.bg-light {
+  background-color: #f8f9fa;
+}
+
+/* Quote section */
+.quote {
+  background-color: #f0f4f8; /* Replace with Figma color if different */
+  padding: 80px 20px;
+  text-align: center;
+  font-style: italic;
+}
+
+.quote blockquote {
+  font-size: 24px;
+  color: #333333;
+  margin-bottom: 20px;
+}
+
+.quote-author {
+  font-size: 18px;
+  color: #666666;
+  font-weight: bold;
+}
